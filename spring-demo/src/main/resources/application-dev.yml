@@ -1,0 +1,13 @@
+---
+spring:
+  data:
+    mongodb:
+      database: testdemo
+  jpa:
+#    show-sql: false
+
+jwt:
+  clientId: spring-demo-app
+  client-secret: secret
+  accessTokenValidititySeconds: 120
+  refreshTokenValiditySeconds: 1000

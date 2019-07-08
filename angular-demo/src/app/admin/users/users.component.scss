@@ -1,0 +1,64 @@
+.container {
+    padding: 6px;
+}
+
+.mat-expansion-panel, .mat-card {
+    margin: 6px;
+}
+
+.mat-header-row, .mat-row {
+    justify-content: space-between;
+}
+
+.mat-header-cell {
+    justify-content: center;
+}
+
+.mat-cell, .mat-header-cell {
+    padding-right: 8px;
+    word-wrap: break-word;
+    word-break: break-all;
+
+    &:first-of-type {
+    padding-left: 12px;
+    }
+    &:last-of-type {
+        padding-right: 12px;
+    }
+}
+
+.material-icons.md-12 {
+    font-size: 12px;
+}
+
+.mat-column-email {
+    flex: 0.3 1 10em;
+    max-width: 15em;
+}
+
+.mat-column-minGleePerDay {
+    flex: 0.2 1 5em;
+    justify-content: flex-end;
+    max-width: 10em;
+}
+
+.mat-column-role {
+    flex: 0.2 1 8em;
+    max-width: 12em;
+}
+
+.mat-column-actions {
+    flex: 0 0 120px;
+    flex-wrap: wrap;
+    max-width: 150px;
+}
+
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filter-actions button {
+    margin-right: 8px;
+}
